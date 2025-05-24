@@ -1,8 +1,3 @@
-// Redirect to https
-if (window.location.href.indexOf("https://www.") == -1 && window.location.href.indexOf('localhost') == -1 && window.location.href.indexOf('C:/') == -1) {
-	window.location = 'https://www.trexus183.com';
-}
-
 //TODO: translate to JQuery
 var scrollLinkPressed = false;
 var topTitle = document.getElementById('topTitle');
