@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Trexus183 - page not found</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style>
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+	color: #efefef;
+	background: #000000;
+}
+
+h1 {
+	font-size: 43px;
+	text-align: center;
+}
+
+p {
+	font-size: 32px;
+}
+
+a {
+	color: #efefef;
+}
+
+a:hover {
+	color: #808080;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+.textContainer {
+	padding: 2%;
+}
+		</style>
+	</head>
+
+	<body>
+		<div class='textContainer'>
+			<h1>
+				The thing you're looking for?
+			</h1>
+			<p>
+				Sorry, but I couldn't find it.
+				<br>
+				<br>
+				If you hand typed the URL, double check it, otherwise the page is gone, or the link was not typed correctly.
+				<br>
+				<br>
+				If you came from the main site, click <a href="http://www.trexus183.com">here</a> to go back, and if you're looking into Mirastell you can follow <a href="http://www.trexus183.com/mirastell">this link</a> instead.
+				<br>
+				<br>
+				If you think this page really should be here, or you need information that used to be on it, shoot me an email at trexus183@gmail.com
+			</p>
+		</div>
+	</body>
+</html>

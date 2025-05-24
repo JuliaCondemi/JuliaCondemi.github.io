@@ -1,0 +1,85 @@
+/* Get rid of the stupid blue border */
+*:focus {
+	outline: none;
+}
+
+body {
+	font-family: 'Futura', sans-serif;
+    margin: 0;
+    background-color: #0E1116;
+	color: white;
+}
+
+h1 {
+	font-family: 'Futura', sans-serif;
+	font-size: calc(2rem + 3.25vh);
+	text-align: center;
+}
+
+p {
+	font-size: calc(1.5rem + 0.5vw);
+	color: white;
+}
+
+li {
+	font-size: calc(1.5rem + 0.5vw);
+}
+
+a {
+	font-size: calc(1.5rem + 0.5vw);
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+	color: #afafaf;
+}
+
+a:active {
+	color: #808080;
+}
+
+img {
+	display: block;
+}
+
+.white {
+	color: white;
+}
+
+.halfSize {
+	font-size: calc(0.25rem + 0.2vw);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*
+.cookieNotif {
+	position: absolute;
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #ffffff;
+	border-top: 0.11vw solid #000;
+	border-bottom: 0.11vw solid #000;
+	top: 46px;
+	height: 55px;
+	position: fixed;
+	width: 100%;
+	overflow-y: hidden;
+	text-align: center;
+}
+
+.cookieNotif p {
+	font-size: 1.7vw;
+	margin: 0;
+}
+
+.cookieNotif p a{
+	color: #808080;
+}
+*/

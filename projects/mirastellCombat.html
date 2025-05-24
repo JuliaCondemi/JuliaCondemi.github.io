@@ -1,0 +1,73 @@
+<h1 id="projectHeader">
+    Mirastell Combat:<br>3 Years of Iteration
+</h1>
+<div class="textContainer">
+    <h2>Summary</h2>
+    <p>
+        Over the course of 3 years I developed the simple turn-based combat Mirastell began with into a unique system with
+        original, purposeful mechanics and progression systems that dramatically improved the player experience.
+        <br>
+        <br>
+        Through this process I learned the importance of keeping systems simple and understandable, as well as how to design
+        iteratively. The current version of Mirastell’s combat is unique, engaging, and has a low bar for entry while still
+        providing a massive skill ceiling.
+        <br>
+        <br>
+        Generally, I like to keep my designs as “lean” as possible. Any changes I make to game systems are always built
+        specifically to solve a problem, or fulfill a design goal. The efficacy of this approach is apparent in the success
+        we’ve had with the combat system in Mirastell.
+        <br>
+        <br>
+        <br>
+    </p>
+    <h2>Details</h2>
+    <p>
+        The first Mirastell prototypes from 2017 featured a simple turn based combat system. Players could choose to attack,
+        heal themselves, attempt to run away, or use an item which could cure negative status effects. After defeating an enemy
+        the player would gain XP and eventually level up, increasing their maximum health.
+        <br>
+        <br>
+        This first iteration of combat turned out to be pretty bad. There was really no skill involved, the player basically
+        just had to repeatedly click “attack” and the game played itself. Combat served no purpose except blocking the player
+        from entering zones which they weren’t leveled enough for.
+        <br>
+        <br>
+        The core problem was that combat didn’t require any real skill or strategy. I quickly made some changes, and within a
+        few months I had the next iteration working. Now, all attacks now required a skill shot, meaning you had to time your
+        attacks correctly with enemies, and could avoid the enemies' attacks. These changes were able to add a skillful element
+        to combat, which greatly improved it.
+        <br>
+        <br>
+        <video controls src="../../projects/media/combat_orig.mp4">Combat Orig</video>
+        <br>
+        To keep combat interesting I built some tools to allow for multiple enemy types, and groups of enemies, which allowed me
+        to vary difficulty in combat more. These elements proved to be effective, and all still exist in the game today.
+        <br>
+        <br>
+        <video controls src="../../projects/media/combat_enemyTypes.mp4">Combat Orig</video>
+        <br>
+        Moving on, I quickly identified the next problem I would need to solve: landing an attack was difficult, and missing
+        your attack was extremely punishing. I tried tuning the values of the player’s attack to be a little more powerful
+        (higher projectile velocity and damage) but that didn’t really solve the problem, especially for newer players who
+        needed time to develop muscle memory, something I couldn’t compensate for with weapon stats.
+        <br>
+        <br>
+        The solution wasn’t terribly complicated, although it would take some effort to implement, the player would just have to
+        be able to shoot multiple times per turn. Instead of having the player’s attack instantly fire, I would put them into a
+        new state where they could launch multiple projectiles. I built a quick prototype by just disabling the enemies turn,
+        which worked well, so I got to work.
+        <br>
+        <br>
+        <video controls src="../../projects/media/combat_fireMode.mp4">Combat Orig</video>
+        <br>
+        At the same time, I was working on progression systems for the game, and so while I was adding in the new player state I
+        built support for different weapon types. This meant we could have weapons with different fire rates, damage amounts,
+        projectile speeds, recoil intensities, and magazine sizes. In the background I also added functionality for
+        weapon-specific scripts, which would later allow me to add special effects to weapons like tracking.
+        <br>
+        <br>
+        Building support for multiple weapon types was an extremely important step in the development of the game. After seeing
+        the results of this change, we continued to add new items, and built out an extensive quest loot system which forms a
+        big part of the long-term gameplay loop.
+    </p>
+</div>

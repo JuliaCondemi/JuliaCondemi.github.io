@@ -1,0 +1,16 @@
+.projectContainer {
+    width: 80vw;
+    margin: auto;
+    padding: 5vw;
+    padding-top: 0;
+    padding-bottom: 5vh;
+    background-color: #232363;
+    border: 1vw solid #14142C;
+}
+
+.textContainer {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,45 @@
+.projectListContainer {
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(58, 71, 101, 0.8);
+    padding: 3vw;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border: 0.1vw solid #27354f;
+}
+
+.projectListContainer h1 {
+    color: #B8E2F2;
+	font-size: calc(2rem + 3.25vh);
+	text-align: center;
+}
+
+.projectList {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectList a {
+    font-size: calc(1.25rem + 2vh);
+    margin: 0.8vw;
+    padding: 0.5vw;
+    list-style-type: none;
+    text-decoration: none;
+    color: #B8E2F2;
+    background-color: rgba(250, 191, 38, 0.9);
+    border-radius: 0.5vh;
+    text-align: center;
+}
+
+.projectList a:hover {
+    margin: 0.5vw;
+	border: 0.3vw solid #fafafa;
+}
+
+.projectList a:active {
+    margin: 0.92vw;
+    padding: 0.3vw;
+    font-size: calc(0.75rem + 1vw);
+    transition: 50ms;
+}

@@ -1,0 +1,89 @@
+/* Get rid of the stupid blue border */
+*:focus {
+	outline: none;
+}
+
+body {
+	font-family: 'Nova Round', sans-serif;
+    margin: 0;
+    background-color: #060716;
+	/* overflow-x: hidden; */
+}
+
+h1 {
+	font-family: 'Nova Square', sans-serif;
+    color: white;
+	font-size: calc(2rem + 3.25vh);
+	text-align: center;
+}
+
+h2 {
+	margin: 0;
+	font-size: calc(0.75rem + 1vw);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p {
+	font-size: calc(0.75rem + 1vw);
+}
+
+li {
+	font-size: calc(0.75rem + 1vw);
+}
+
+a {
+    font-size: calc(1.25rem + 2vh);
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #808080;
+}
+
+img {
+	display: block;
+}
+
+video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 45vw;
+	border: 0.5vw solid #14142C;
+}
+
+/*
+.cookieNotif {
+	position: absolute;
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #ffffff;
+	border-top: 0.11vw solid #000;
+	border-bottom: 0.11vw solid #000;
+	top: 46px;
+	height: 55px;
+	position: fixed;
+	width: 100%;
+	overflow-y: hidden;
+	text-align: center;
+}
+
+.cookieNotif p {
+	font-size: 1.7vw;
+	margin: 0;
+}
+
+.cookieNotif p a{
+	color: #808080;
+}
+*/

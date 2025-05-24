@@ -1,0 +1,158 @@
+.nameSection {
+    margin-top: 4.5vw;
+    color: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nameSection iframe {
+    width: 55vw;
+    height: 60vh;
+    border-radius: 0.5vw;
+    border: 0.25vw solid #111113;
+}
+
+.nameContainer {
+    margin: 1vh;
+    padding: 3vh;
+    background-color: #28282a;
+    border: 0.5vw solid #111113;
+    border-radius: 500vw;
+    /* width: 40%; */
+}
+
+.projectsSection {
+    padding: 1%;
+    margin: 2vw;
+    background-color: #28282a;
+    color: #efefef;
+    border-radius: 1vw;
+    border: 0.5vw solid #111113;
+}
+
+.projectListContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projectContainer {
+    margin: 0.75%;
+    width: 50vh;
+    border: 0.5vw solid #111113;
+    background-color: #111113;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectContainer:hover {
+    border: 0.5vw solid #808080;
+    /* background-color: #808080; */
+}
+
+.projectContainer p {
+    padding: 0.75vw;
+    font-size: calc(0.75rem + 1vh);
+    text-align: left;
+    background-color: #28282a;
+}
+
+.smallProjectContainer {
+    border: 0.25vw solid #111113;
+    margin: 0.75%;
+    width: 32.5vh;
+}
+
+.smallProjectContainer:hover {
+    border: 0.25vw solid #808080;
+}
+
+.aboutSection {
+    margin: 1vw;
+    background-color: #28282a;
+    border-radius: 1vw;
+    padding: 3vw;
+    color: #efefef;
+    border: 0.5vw solid #111113;
+}
+
+.aboutContent {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headshot {
+    width: calc(15vw + 15vh);
+    padding: 2%;
+    background-color: #808080;
+    border: 0.5vw solid #111113;
+    border-radius: 0.5vw;
+}
+
+.aboutTextContainer {
+    width: 70vw;
+    padding: 3%;
+    flex-grow: 1;
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.aboutTextContainer p {
+    width: auto;
+    padding: 5%;
+    border: 0.5vw solid #111113;
+    background-color: #28282a;
+    border-radius: 0.5vw;
+}
+
+.experienceSection {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.experienceContent {
+    padding: 2%;
+    background-color: #28282a;
+    border-radius: 0.5vw;
+    color: #efefef;
+    border: 0.5vw solid #111113;
+}
+
+.contactSection {
+    padding: 1%;
+    background-color: #28282a;
+    color: #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5vw solid #111113;
+}
+
+.contactListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactListContainer img {
+    padding: 2vw;
+}

@@ -1,0 +1,155 @@
+/* Get rid of the stupid blue border */
+*:focus {
+	outline: none;
+}
+
+body {
+	/* background-color: #111113; */
+	background-image: url(../starField.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	/* overflow-x: hidden; */
+}
+
+h1 {
+	font-size: calc(2.25rem + 1vh);
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font-size: calc(1.75rem + 1vh);
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+}
+
+p {
+	margin: 0;
+	font-size: calc(1rem + 1vh);
+}
+
+li {
+	font-size: calc(1rem + 1vh);
+}
+
+.black {
+	color: #0f0f11;
+}
+
+.white {
+	color: #efefef;	
+}
+
+a:hover {
+	color: #808080;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+img {
+	display: block;
+}
+
+.linkImgContainer {
+	position: relative;
+	width: 33%;
+	margin: 2%;
+}
+
+.linkImgOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .15s ease;
+  background-color: #000000;
+}
+
+.linkImgContainer:hover .linkImgOverlay {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+nav {
+	position: absolute;
+	z-index: 2;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #0f0f11;
+	border-bottom: 0.25vw solid #efefef;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0.25vh 0.5vh black;
+}
+
+nav li {
+	float: left;
+	font-size: calc(0.75rem + 1.25vw);
+}
+
+nav li a {
+	text-decoration: none;
+	color: #efefef;
+	padding: 1vw;
+	background-color: #0f0f11;
+	display: block;
+}
+
+nav li a:hover {
+	color: #808080;
+	text-decoration: underline;
+}
+
+nav li a:active {
+	background-color: #222222;
+}
+
+nav li img {
+	border-radius: 10px;
+}
+
+.navbarSpacer br {
+	height: 1.25vw;
+}
+
+/*
+.cookieNotif {
+	position: absolute;
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #ffffff;
+	border-top: 0.11vw solid #000;
+	border-bottom: 0.11vw solid #000;
+	top: 46px;
+	height: 55px;
+	position: fixed;
+	width: 100%;
+	overflow-y: hidden;
+	text-align: center;
+}
+
+.cookieNotif p {
+	font-size: 1.7vw;
+	margin: 0;
+}
+
+.cookieNotif p a{
+	color: #808080;
+}
+*/

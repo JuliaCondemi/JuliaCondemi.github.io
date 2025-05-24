@@ -1,0 +1,100 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Koverwatch";
+  src: url("../../../owFonts/koverwatch.eot"); /* IE9 Compat Modes */
+  src: url("../../../owFonts/koverwatch.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../../owFonts/koverwatch.otf") format("opentype"), /* Open Type Font */
+    url("../../../owFonts/koverwatch.svg") format("svg"), /* Legacy iOS */
+    url("../../../owFonts/koverwatch.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../../../owFonts/koverwatch.woff") format("woff"), /* Modern Browsers */
+    url("../../../owFonts/koverwatch.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Directive-Four-Condensed-Bold';
+    src:  url('../../../owFonts/Directive-Four-Condensed-Bold.ttf.woff') format('woff'),
+    url('../../../owFonts/Directive-Four-Condensed-Bold.ttf.svg#Directive-Four-Condensed-Bold') format('svg'),
+    url('../../../owFonts/Directive-Four-Condensed-Bold.ttf.eot'),
+    url('../../../owFonts/Directive-Four-Condensed-Bold.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Get rid of the stupid blue border */
+*:focus {
+	outline: none;
+}
+
+body {
+	font-family: 'Directive-Four-Condensed-Bold', sans-serif;
+    margin: 0;
+	background-image: url(../../owBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* overflow-x: hidden; */
+}
+
+h1 {
+	font-family: 'Koverwatch', sans-serif;
+    color: #21a7de;
+	font-size: calc(2rem + 1.5vw);
+	text-align: center;
+}
+
+p {
+	font-size: calc(1rem + 1vw);
+	color: #EEEEEE;
+}
+
+li {
+	font-size: calc(1rem + 1vw);
+}
+
+a {
+    font-size: calc(1rem + 1vw);
+    color: #21a7de;
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #808080;
+}
+
+img {
+	display: block;
+}
+
+/*
+.cookieNotif {
+	position: absolute;
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #ffffff;
+	border-top: 0.11vw solid #000;
+	border-bottom: 0.11vw solid #000;
+	top: 46px;
+	height: 55px;
+	position: fixed;
+	width: 100%;
+	overflow-y: hidden;
+	text-align: center;
+}
+
+.cookieNotif p {
+	font-size: 1.7vw;
+	margin: 0;
+}
+
+.cookieNotif p a{
+	color: #808080;
+}
+*/

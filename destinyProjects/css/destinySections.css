@@ -1,0 +1,63 @@
+.projectListContainer {
+    width: fill;
+    margin: auto;
+    padding: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    /* border: 1vw solid #325661; */
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projectContainer {
+    margin: 0.75%;
+    width: 80vw;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    border: 0.5vw solid #111113;
+    background-color: #181E24;
+    border: 0.25vw solid #325661;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.majorMedia {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 40vh;
+	height: 30vh;
+}
+
+.minorMedia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+    height: 20vh;
+}
+
+.projectTitle {
+	font-family: 'Futura', sans-serif;
+	font-size: calc(2rem + 3.25vh);
+	text-align: center;
+    text-align: center;
+    margin: 3vh;
+}
+
+.projectDescription {
+    width: 55vw;
+    padding: 0.75vw;
+    /* font-size: calc(0.75rem + 1vh); */
+    text-align: left;
+}
